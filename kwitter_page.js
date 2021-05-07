@@ -65,3 +65,6 @@ function logout() {
       localStorage.removeItem("room_name");
           window.location = "index.html";
       }
+      function back() {
+            window.location = "kwitter_room.html";
+        }
